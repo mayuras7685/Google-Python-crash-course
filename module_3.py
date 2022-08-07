@@ -3,6 +3,7 @@
 Fill in the blanks of this code to print out the numbers 1 through 7.
 ans.
 """
+
 number = 1
 while number <= 7:
 	print(number, end=" ")
@@ -14,6 +15,7 @@ The show_letters function should print out each letter of a word on
 a separate line. Fill in the blanks to make that happen.
 ans.
 """
+
 def show_letters(word):
 	for i in word:
 		print(i)
@@ -31,6 +33,7 @@ Tip: you can figure out the digits of a number by dividing it by 10 once per
 digit until there are no digits left.
 ans.
 """
+
 def digits(n):
 	count = 0
 	if n == 0:
@@ -59,6 +62,7 @@ of its column). Fill in the blanks so that calling multiplication_table(1, 3) wi
 
 ans.
 """
+
 def multiplication_table(start, stop):
 	for x in range(start, stop+1):
 		for y in range(start, stop+1):
@@ -76,6 +80,7 @@ The counter function counts down from start to stop when start is bigger than st
 and counts up from start to stop otherwise. Fill in the blanks to make this work correctly.
 ans.
 """
+
 def counter(start, stop):
 	x = start
 	if start > stop:
@@ -110,6 +115,7 @@ For example, even_numbers(6) returns “2 4 6”.
 Fill in the blank to make this work.
 ans.
 """
+
 def even_numbers(maximum):
 	return_string = " "
 	for x in range(2,maximum+1):
